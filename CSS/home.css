@@ -37,8 +37,27 @@ a
     position: fixed;
     top:0;
     left:0;
-    
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #021a69;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(12, 53, 92);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(13, 53, 105);
+  }
 
 
 .nav-bar h1
