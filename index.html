@@ -11,7 +11,10 @@
 <body>
 
     <section>
-        <div class="nav-bar">
+        <div class="nav-bar" id="sidebar">
+            
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-circle-xmark"></i></a>
+
             <div class="profile">
                 <img src="IMG/picture.jpg" alt="">
                 <h1>Carlos Tello Dominguez</h1>
@@ -33,7 +36,11 @@
 
                 <a href="carloswork067@hotmail.com"><i class="fa-solid fa-envelope"></i></a>
             </div>
+
         </div>
+
+        <a id="bars-menu" onclick="openNav()"><i class="fa-solid fa-bars"></i></a>
+        
     </section>
     
     <section>
@@ -69,7 +76,7 @@
             </div>
     </section>
 
-
+  <script src="JS/index.js"></script>
     
 </body>
 </html>
