@@ -157,7 +157,6 @@ a
     border-bottom: 1px solid #330a0a2a;
     height: 250px;
     line-height: 150px;
-    
 }
 
 .projects img
@@ -188,10 +187,21 @@ a
     font-size: 1.5rem;
 }
 
+.description-video
+{
+    display: flex;
+}
+
+.description-video p
+{
+   
+}
+
 .description h3
 {
     color: rgb(255, 255, 255);
 }
+
 
 
 
