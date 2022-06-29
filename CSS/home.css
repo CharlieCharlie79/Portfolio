@@ -107,7 +107,6 @@ a
 .social-media
 {
     display:flex;
-    flex-direction: column;
     font-size: 2rem;
     z-index: 3;
 }
@@ -115,6 +114,7 @@ a
 .social-media a
 {
     transition: 0.3s;
+    padding: 0 10px;
 }
 
 .social-media a:hover
